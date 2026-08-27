@@ -1,4 +1,4 @@
-# S-CENTER Trigger + Audio Adapter
+# Rouse & Chime
 
 A small regulator/adapter board that feeds a Sony BRAVIA 8's undocumented
 **S-CENTER SPEAKER IN** terminal from a line-level audio source and a 12V
