@@ -1,0 +1,26 @@
+* S-CENTER trigger regulator - standalone check
+* 12V trigger in -> 7805 -> 5V out -> 82R dummy load (stand-in for TV input)
+*
+* NOTE: this uses a placeholder ideal-diode-based approximation, NOT a real
+* 7805 SPICE model. Before trusting these results, source a proper 7805
+* model (e.g. from the manufacturer, or a well-regarded community model)
+* and swap out the .subckt below. Treat this file as a wiring/topology
+* check only until that's done.
+
+.subckt REG5V IN OUT GND
+* crude placeholder: not a real regulator model
+Rdrop IN OUT 1
+.ends
+
+V1 12V_IN 0 PULSE(0 12 0 1u 1u 10m 20m)
+Cin 12V_IN 0 330n
+X1 12V_IN 5V_OUT 0 REG5V
+Cout 5V_OUT 0 100n
+Rload 5V_OUT 0 82
+
+.tran 10u 40m
+.control
+run
+plot v(5V_OUT)
+.endc
+.end
