@@ -1,10 +1,8 @@
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="docs/branding/rouse-chime-mark-filled-dark-mode.svg">
-    <source media="(prefers-color-scheme: light)" srcset="docs/branding/rouse-chime-mark-filled.svg">
-    <img src="docs/branding/rouse-chime-mark-filled.svg" alt="Rouse & Chime logo" width="160">
-  </picture>
-</p>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="docs/branding/rouse-chime-mark-filled-dark-mode.svg">
+  <source media="(prefers-color-scheme: light)" srcset="docs/branding/rouse-chime-mark-filled.svg">
+  <img src="docs/branding/rouse-chime-mark-filled.svg" alt="Rouse & Chime logo" width="160">
+</picture>
 
 # Rouse & Chime
 
