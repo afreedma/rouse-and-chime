@@ -7,6 +7,9 @@ _autosave-*
 fp-info-cache
 *.lck
 *.kicad_prl
+*.wbk
+*-erc.rpt
+.history/
 
 # macOS
 .DS_Store

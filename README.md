@@ -29,10 +29,14 @@ consider a manufactured PCB and case.
 
 ## How it works
 
-- **Audio path:** line-level analog audio (a spare RCA output from the
-  source device) feeds straight through to the TRS tip.
-- **Trigger path:** a 12V trigger output is stepped down through a 7805
-  linear regulator to a fixed 5.0V, feeding the TRS ring.
+The source device is a miniDSP Flex HT: line-level audio out on RCA, 12V
+trigger out on a 3.5mm TS mono jack. The board combines both into a single
+3.5mm TRS output matching the BRAVIA 8's S-CENTER SPEAKER IN jack.
+
+- **Audio path:** line-level analog audio (RCA in from the miniDSP Flex HT)
+  feeds straight through to the TRS tip.
+- **Trigger path:** the 12V trigger (TS mono jack in) is stepped down
+  through a 7805 linear regulator to a fixed 5.0V, feeding the TRS ring.
 - **Ground:** audio ground and trigger ground share one common point on
   the board; cable shields are left floating (EMI protection only, not
   current-carrying) to avoid a second ground path.
