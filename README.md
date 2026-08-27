@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="docs/branding/rouse-chime-mark-filled.svg" alt="Rouse & Chime logo" width="160">
+</p>
+
 # Rouse & Chime
 
 A small regulator/adapter board that feeds a Sony BRAVIA 8's undocumented
