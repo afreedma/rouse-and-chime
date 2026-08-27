@@ -14,6 +14,11 @@ art. Treat them as the source of truth for shape and proportion — but
 redraw with clean anchor points, proper stroke-to-fill conversion, and
 embedded/outlined text before sending anything to a fabricator.
 
+`rouse-chime-mark-filled-dark-mode.svg` is not a fifth official variant —
+it's `rouse-chime-mark-filled.svg` recolored white, generated only so the
+README's logo stays visible against GitHub's dark theme. Keep it in sync
+by hand if the mark's geometry changes.
+
 ## Wave function (shared curve, used in every variant)
 
 - Amplitude: ±4 units (mark-only files) / ±3 units (lockup files, at
